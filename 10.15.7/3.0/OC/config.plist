@@ -1442,7 +1442,7 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,1</string>
+			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
@@ -1631,6 +1631,87 @@
 				<integer>4096</integer>
 			</dict>
 		</array>
+	</dict>
+	<key>SMBIOS</key>
+	<dict>
+		<key>Trust</key>
+		<true/>
+		<key>ProductName</key>
+		<string>MacBookPro15,2</string>
+		<key>Memory</key>
+		<dict>
+			<key>Modules</key>
+			<array>
+				<dict>
+					<key>Vendor</key>
+					<string>Micron</string>
+					<key>Serial</key>
+					<string>Unknown</string>
+					<key>Part</key>
+					<string>MTA16ATF4G64HZ-2G6B2</string>
+					<key>Size</key>
+					<integer>16384</integer>
+					<key>Frequency</key>
+					<integer>2667</integer>
+					<key>Slot</key>
+					<integer>0</integer>
+					<key>Type</key>
+					<string>DDR4</string>
+				</dict>
+				<dict>
+					<key>Vendor</key>
+					<string>Micron</string>
+					<key>Serial</key>
+					<string>Unknown</string>
+					<key>Part</key>
+					<string>MTA16ATF4G64HZ-2G6B2</string>
+					<key>Size</key>
+					<integer>16384</integer>
+					<key>Frequency</key>
+					<integer>2667</integer>
+					<key>Slot</key>
+					<integer>1</integer>
+					<key>Type</key>
+					<string>DDR4</string>
+				</dict>
+				<dict>
+					<key>Vendor</key>
+					<string>Micron</string>
+					<key>Serial</key>
+					<string>Unknown</string>
+					<key>Part</key>
+					<string>MTA16ATF4G64HZ-2G6B2</string>
+					<key>Size</key>
+					<integer>16384</integer>
+					<key>Frequency</key>
+					<integer>2667</integer>
+					<key>Slot</key>
+					<integer>2</integer>
+					<key>Type</key>
+					<string>DDR4</string>
+				</dict>
+				<dict>
+					<key>Vendor</key>
+					<string>Micron</string>
+					<key>Serial</key>
+					<string>Unknown</string>
+					<key>Part</key>
+					<string>MTA16ATF4G64HZ-2G6B2</string>
+					<key>Size</key>
+					<integer>16384</integer>
+					<key>Frequency</key>
+					<integer>2667</integer>
+					<key>Slot</key>
+					<integer>3</integer>
+					<key>Type</key>
+					<string>DDR4</string>
+				</dict>
+			</array>
+			<key>Channels</key>
+			<integer>1</integer>
+			<key>SlotCount</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>
